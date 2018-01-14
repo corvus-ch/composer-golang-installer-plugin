@@ -1,0 +1,24 @@
+{
+    "name": "corvus-ch/composer-golang-installer-plugin",
+    "description": "A composer installer plugin for golang binaries.",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Häusler",
+            "email": "haeusler.christian@mac.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"CorvusCH\\Composer\\GolangInstallerPlugin\\": "src/"}
+    },
+    "extra": {
+        "class": "CorvusCH\\Composer\\GolangInstallerPlugin\\Plugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.0"
+    }
+}
